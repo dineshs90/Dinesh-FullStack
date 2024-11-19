@@ -1,12 +1,12 @@
-Frontend 
+Frontend:
 
 HTML --> CSS --> JavaScript
 
-Backend
+Backend:
 
 Java or Golang or Python
 
 
-Database
+Database:
 
 MYSQL or SQL or BIGQ DB
