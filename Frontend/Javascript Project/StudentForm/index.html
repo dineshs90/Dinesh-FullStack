@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
+
+
+
+<body>
+<center>
+<h1>STUDENT FORM</h1>
+
+<form id="FillForm">
+    <table border="1" style="padding:5px;" >
+        <tr>
+            <td><b>Name</b></td> <td><input id="first" type="text"></td>
+        </tr>
+        <tr>
+            <td><b>Age</b></td> <td><input id="age" type="number"></td>
+        </tr>
+        <tr>
+            <td><b>Gender</b></td>
+            <td>
+                <input type="radio" name=gender value="Male">Male
+                <input type="radio" name=gender value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td><b>Course</b></td>
+            <td>
+                <select id="course" style="width:147px;">
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>Golang</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td><b>Email</b></td> <td><input id="email" type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button id="lb" onclick="add(event)"> Save </button>
+            </td>
+        </tr>
+    </table>
+    <table border="1" class="data" style="margin-top: 15px; text-align: center;">
+        <thead>
+        <tr id="output">
+            <td>NAME</td>
+            <td>AGE</td>
+            <td>GENDER</td> 
+            <td>COURSE</td> 
+            <td>EMAIL</td> 
+            <td>ACTION</td>
+        </tr>
+    </thead>
+    <tbody id="entry">
+
+    </tbody>
+        
+        </table>
+    </form>
+
+
+
+</center>
+<script src="script1.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
